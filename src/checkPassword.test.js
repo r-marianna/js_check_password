@@ -61,11 +61,9 @@ describe(`Function 'checkPassword':`, () => {
     expect(result).toBeFalsy();
   });
 
-
-  it(`should return 'false' without upper-case letter`, () => {
+  it(`should return 'false' without uppercase letter`, () => {
     const result = checkPassword('paswor1!');
 
     expect(result).toBeFalsy();
   });
 });
-
